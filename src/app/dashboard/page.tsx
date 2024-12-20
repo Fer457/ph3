@@ -5,6 +5,7 @@ import { useSession, signOut } from "next-auth/react";
 export default function Dashboard() {
   const { data: session, status } = useSession();
 
+  console.log(session, status);
 
   if (status === "loading") {
     return <div className="text-center mt-10">Cargando...</div>;
