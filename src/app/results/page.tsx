@@ -54,7 +54,7 @@ const ResultsPage: React.FC = () => {
                     className="flex justify-between bg-[#2A2A2A] p-3 rounded text-sm text-gray-300"
                   >
                     <span>{candidato}</span>
-                    <span>{votes} votos</span>
+                    {winners[premio] && <span>{votes} votos</span>}
                   </li>
                 ))}
               </ul>
