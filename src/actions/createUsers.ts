@@ -37,7 +37,7 @@ export const createUsers = async () => {
     }
     return { success: true, message: "Usuarios creados con éxito" };
   } catch (error) {
-    console.error("Error creando usuarios:", error);
+    console.error("Error creando:", error);
     return { success: false, message: "Error creando usuarios" };
   }
 };
