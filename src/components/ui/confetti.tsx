@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import confetti from "canvas-confetti";
 
 interface ConfettiOptions extends confetti.Options {
